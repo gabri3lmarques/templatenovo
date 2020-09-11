@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	Mudar cores/sobreescrever cores das classes e elementos neste  arquivo css,
+	para não afetar a estrutura do html.
+ 	Customizar cores dos elementos do bootstrap aqui, para manter a organização.
+*/
+body{
+	background-color:#e6e6e6;
+}
+
+.paper{
+	border-color:#e9e7e8;
+}
+
+.legenda_imagem{
+	color:inherit
+}
+.borda-abaixo{
+	border-color:#efefef;
+}
+
+.cor-padrao-curso-texto{
+	color:#3498db;
+}
+.cor-padrao-curso-fundo{
+	background-color:#3498db;
+	color:#fff;
+	padding:30px;
+}
+.pagination>li>a{
+		color: #4f9ca2 !important;
+		border-color: #f2f6f7;
+}
+.pagination>li>a:hover{
+		color: #4f9ca2 !important;
+		border-color: #f2f6f7;
+}
+.pagination>.disabled>a:hover{
+		color: #4f9ca2 !important;
+		border-color: #f2f6f7;
+}
+.pagination>.disabled>a{
+		color: #4f9ca2 !important;
+		border-color: #f2f6f7;
+}
+.pagination>.active>a{
+	background-color: #4f9ca2 !important;
+	border-color: #4f9ca2;
+	color:#fff !important;
+}
+.pagination>.active>a:hover{
+	color:#fff !important;
+}
+.panel-heading{
+	background-color: #f2f6f7 !important;
+	color: #3498db !important;
+}
+
+img.arredondar{
+	border-color:#f5f5f5;
+}
+
+h1,h2,h3,h4,h5{
+	/*color:#3498db;*/
+	color:#2980b9;}
+
+
+
+table.sesi {
+	border-color:#E8E8E8;
+}
+table.sesi th{
+	/*background-color:#3498db;*/
+	background-color:#3498db;
+	color:#fff;
+	border-color:#dedede;
+}
+table.sesi td{
+	background-color:#fefefe;
+	color:#333;
+	border-color:#dedede;
+}
+header.sesi{
+	background-color:#3498db;
+}
+.video-player{
+	border-color:#000000;
+}
+
+#sombra{
+	background-color:e9e7e8;
+}
+
+
+#nome-curso{
+    color: #fff;
+}
+.fundo-tecnicos{
+	background-color:#fff;
+	border-bottom:3px solid #ccc;
+}
+
+.caixa-destaque{
+	background-color:#f2f6f7;
+}
+
+.caixa-destaque-livre{
+	background-color:#f2f6f7;
+}
+.caixa-ta-na-midia{
+	color: #fff;
+	background-color: #2980B9;
+}
+.icone-transcricao > a{
+	background-color:#FFB30D;
+	color:#fff;
+}
+.icone-transcricao > a:hover{
+	background-color: #2980b9;
+	color:#fff;
+}
+/*
+botões
+*/
+a.botao-transcricao{
+	background-color:#f2f6f7;
+	color:#3498db;
+	font-weight: bold;
+	border-bottom:solid 2px #3498db;
+}
+a.botao-transcricao:hover{
+	background-color: #3498db;
+	color:#fff;
+	
+}
+
+.botao{
+	background-color:#f2f6f7;
+	color:#3498db;
+	border-bottom:solid 2px #3498db;
+	font-weight:600;
+	
+}
+.botao:hover{
+	text-decoration:none;
+	background-color:#3498db;
+	border-bottom:solid 2px #3498db;
+	color:#ffffff;
+}
+/* botoes das paginas, sintam-se livres pra modificar */
+.pagination li a,.botao_paginacao{
+	padding: 0.5em !important;
+	height: 46px !important;
+	border-radius: 0.5em !important;
+	text-align: center !important;
+	background-color:#f2f6f7 !important;
+	color:black !important;
+	border-bottom:solid 2px #3498db !important;
+	font-weight:600 !important;
+	font-size: 1em !important;
+}
+.pagination li a:hover,.botao_paginacao:hover{
+	text-decoration:none !important;
+	background-color:#3498db !important;
+	border-color: transparent !important;
+	border-bottom:solid 2px #c7c7c7 !important;
+	color:white !important; 
+}
+.pagination li.active a{
+	background-color:#3498db !important;
+	color:white !important;
+	border-bottom:solid 2px #3498db !important;
+	font-weight:600 !important;
+	border-color: #3498db;
+	border-bottom-color: #B5B5B5 !important;
+}
+
+.botao_paginacao:active, .botao_paginacao:focus{
+	text-decoration:none;
+	background-color:#FFB30D !important;
+	border-bottom:solid 2px #c7c7c7;
+	color:#3498db !important;
+	}
+a.botao-pdf{
+	background-color:#f2f6f7;
+	border-bottom:solid 2px #3498db;
+	font-weight:600;
+	color:#3498db !important;
+
+}
+a.botao-pdf:hover{
+	font-weight: 600;
+	color: #ffffff !important;
+	background-color: #3498db;
+}
+.botao_paginacao.avancar, .botao_paginacao.voltar{	
+	background-color:inherit;
+	}
+.botao_paginacao.avancar:hover, .botao_paginacao.voltar:hover{	
+	background-color:inherit;
+	}
+.botao_paginacao.avancar:active, .botao_paginacao.voltar:focus{
+	background-color:inherit !important;
+	}
+.botao_paginacao.avancar:focus, .botao_paginacao.voltar:active{
+background-color:inherit !important;
+}
+a.botao-avancar{
+	background-color:#3498db;
+	border-bottom:solid 2px #c7c7c7;
+	font-weight:600;
+	color:#FFFFFF!important;
+}
+a.botao-avancar:hover{
+	font-weight: 600;
+	color: #FFFFFF !important;
+	background-color:#FFB30D;
+}
+a.botao-voltar{
+	background-color:#3498db;
+	border-bottom:solid 2px #c7c7c7;
+	font-weight:600;
+	color:#FFFFFF !important;
+}
+a.botao-voltar:hover{
+	font-weight: 600;
+	color: #FFFFFF !important;
+	background-color:#FFB30D;
+}
+a.botao-subir{
+	background-color:#3498db;
+	border-bottom:solid 2px #c7c7c7;
+	font-weight:600;
+	color:#FFFFFF !important;
+}
+a.botao-subir:hover{
+	font-weight: 600;
+	color: #FFFFFF !important;
+	background-color:#FFB30D;
+}
+.anim-troca-cor:hover{
+	background-color:#f2f6f7;
+
+}
+
+
+/* coloca um dos icones ao lado de um titulo */
+
+.botao_paginacao.ativo{
+	text-decoration:none;
+	background-color:#3498db!important;
+	border-bottom:solid 2px #c7c7c7;
+	color:#ffffff !important;
+	}
+
+.botao_paginacao.ativo{
+	text-decoration:none;
+	background-color:#3498db!important;
+	border-bottom:solid 2px #c7c7c7;
+	color:#ffffff !important;
+	}
+.bg-topo-print {
+    background-color: #3498db
+}
+.bg-topo-print span{
+	color: white;
+}
+.bg-topo-print span.fa.fa-print{
+	color: #3498db
+}
+.bg-topo-print .btn.btn-primary {
+	background-color:#DEEEFC;
+	border: 1px solid #DEEEFC;
+	color: #3498db
+}
+.bg-topo-print .btn.btn-primary:hover, .bg-topo-print .btn.btn-primary:visited, .bg-topo-print .btn.btn-primary:active, .bg-topo-print .btn.btn-primary.active, .bg-topo-print .btn.btn-primary:focus   {
+	background-color:#bce0ff;
+}
+/* IMPRESSÃO: cores do botão imprimir. Personalizar de acordo com as cores do tema */
+.grupo-imprimir button.bto-imprimir {
+  background: #3498db;
+  color: white;
+}
+.grupo-imprimir button.bto-imprimir:hover {
+  background-color: lightblue;
+  color: #3498db;
+}
+.grupo-imprimir button.bto-ajuda  {
+	background-color: #215D89;
+  color: #fff;
+}
+.grupo-imprimir button.bto-ajuda:hover {
+  background-color: #2A74B7;
+  color: #FFF;
+}
+.grupo-imprimir button.bto-ajuda:hover span.fa.fa-question {
+  color: #215D89;
+}
+.grupo-imprimir button.bto-ajuda span.fa.fa-question {
+	color: #215D89;
+}
+
+
+.btn-print {
+    color: #3498db;
+    background-color: #fff;
+    border-color: #06415e;
+}
+
+/*painel gaitinha extra quando ativo*/
+.panel.panel-default.ativo .panel-heading{
+	color: white !important;;
+	background-color: #3498db !important;
+}
+
+
+.popover-title{
+	color:white;
+	background-color:#3498db;
+	border-color:#3498db
+}
+
+.nav > li > a{
+	color:#3498db;
+}
+.nav > li > a:hover{
+	color:#3498db;
+}
+
+.nav-tabs > li.active > a:hover{
+	background-color: #3498db;
+	color: white;
+	border-color: #3498db;
+}
